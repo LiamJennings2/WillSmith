@@ -1,0 +1,220 @@
+body {
+  background-color: darkseagreen;
+}
+
+h1 {
+   color: black;
+   font-size:300%;
+   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+p {
+   font-size: small;
+   font-family: sans-serif;
+ }
+ 
+ header {
+   text-align: center;
+ }
+ 
+   ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+       }
+       
+li{
+  float:left;
+}
+
+a:link, a:visited {
+  display: block;
+  width: 120px;
+  font-weight:bold;
+  color:white;
+  background-color: darkblue;
+  text-align: center;
+  padding: 4px;
+  text-decoration:none;
+  text-transform: uppercase;
+  border:1px solid black;
+}
+
+
+
+
+
+a:hover, a:active {
+  background-color: limegreen;
+  color:black;
+}
+ 
+.div-1 {
+  background-color: #cfc ;
+  padding: 10px ;
+  border: 1px solid green ;
+  font-size: 30px;
+}
+
+.div-2 {
+  position: absolute;
+  right: 850px;
+  margin-left: 125px;
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: blue;
+}
+
+.div-3 {
+  position: absolute;
+  right: 450px;
+}
+
+.div-5 {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  position: absolute;
+  right:10px;
+}
+
+.div-5:hover {
+  transform: scale(1.04);
+}
+
+.div-4 {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  position: absolute;
+  right: 720px;
+}
+
+.div-4:hover {
+  transform: scale(1.04);
+}
+
+.div-6 {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  position: absolute;
+  right: 350px;
+}
+
+.div-6:hover {
+  transform: scale(1.04);
+}
+
+.div-7 {
+  border-radius: 50%;
+}
+
+.div-text1 {
+  position: relative;
+  left: 220px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.div-text2 {
+  position: relative;
+  left: 220px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.div-8:hover {
+    width: 300px;
+    height: 300px;
+transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.div-9:hover {
+  width: 300px;
+  height: 300px;
+  transition: width 2s;
+}
+
+.div-10:hover {
+  width: 300px;
+  height: 300px;
+  transition: width 2s;
+}
+
+.div-11:hover {
+  width: 300px;
+  height: 300px;
+  transition: width 2s;
+}
+
+.div-A:hover {
+    transform: rotate(360deg);
+	transition: transform 1s;
+		  width: 300px;
+	  height: 400px:
+}
+
+.div-B:hover {
+    transform: rotate(360deg);
+	transition: transform 2s;
+        transform: scale(1.5);
+		transform-origin: center left;
+}
+
+.div-C:hover {
+    transform: rotate(360deg);
+	transition: transform 4s;
+        transform: scale(0.5);
+		transform-origin: center left;
+}
+
+.div-D {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-E:hover {
+	transition: transform 2s;
+        transform: scale(0.9);
+		
+}
+
+.div-E {
+		  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.div-F {
+		  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.div-F:hover {
+	transition: transform 1s;
+        transform: scale(1.4);
+		
+}
+
+.div-G {
+		  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.div-G:hover {
+	transition: transform 1s;
+        transform: scale(1.4);
+		
+}
+
+h3 {
+	text-align: center;
+	}
